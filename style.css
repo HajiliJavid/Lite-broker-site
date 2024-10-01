@@ -1,0 +1,123 @@
+body {
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.main-content {
+    width: 80%;
+    margin: 0 auto;
+}
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.table-container {
+    display: flex;
+    gap: 50px;
+}
+.form-row {
+    width: 100%;
+    height: 75px;
+    border-radius: 41px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 10px;
+}
+.form-row input {
+    height: 47px;
+    width: 33%;
+    border-radius: 3px;
+    border: 1px solid #ccc; 
+    padding: 5px;
+    font-family: Montserrat, sans-serif;
+}
+.button-row {
+    display: flex;
+    justify-content: flex-end;
+}
+button {
+    padding: 5px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+.load-btn,
+.add-btn {
+    width: 148px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #003366;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.38px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    table-layout: fixed; 
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    word-wrap: break-word; 
+    white-space: normal; 
+    max-width: 200px; 
+}
+
+th {
+    background-color: #003366;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+.employee-list {
+    width: 25%;
+    background-color: white;
+    padding: 15px;
+    padding-right: 30px !important;
+    border-radius: 5px;
+}
+.employee-list h3 {
+    margin-top: 0;
+}
+.employee-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+.employee-list li {
+    margin-bottom: 5px;
+    text-align: left; 
+    padding: 5px; 
+    word-wrap: break-word; 
+    word-break: break-all; 
+}
+.filter-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; 
+    padding: 5px; 
+    word-wrap: break-word; 
+    word-break: break-all; 
+}
+.filter-list input {
+    cursor: pointer;
+}
